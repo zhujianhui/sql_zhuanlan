@@ -27,4 +27,6 @@ psql -U postgres -f  pg_test.sql test
 直接使用SQL Server Management Studio 即可恢复该备份文件。
 
 
-4、
+4、oracle_test.dmp 是通过exp命令导出的Oracle备份文件，可以通过imp命令导入本地数据库   
+例如：
+imp system/password file=c:\oracle_test.dmp ignore=y FULL=Y
