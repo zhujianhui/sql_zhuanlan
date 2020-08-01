@@ -17,5 +17,7 @@ psql -U postgres -f  pg_test.sql test
 2、mysql_test.sql 是使用mysqldump命令导出的MySQL备份文件，下载后使用以下方式恢复到本地数据库：  
 
 1）连接到数据库并创建test数据库，使用以下命令切换到test库中  
-      use test
-2） source mysql_test.sql  
+      use test   
+      
+2） 使用以下命令还原 :  
+   source mysql_test.sql  
