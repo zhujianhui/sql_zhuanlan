@@ -11,7 +11,7 @@ WITH
   ENCODING = 'UTF8'
 ;   
 
-2）使用命令还原：
+2）使用以下命令还原：
 
 psql -U postgres -f  pg_test.sql test  
 
