@@ -31,3 +31,12 @@ psql -U postgres -f  pg_test.sql test
 四、oracle_test.dmp 是通过exp命令导出的Oracle备份文件，可以通过imp命令导入本地数据库   
 例如：
 imp system/password file=c:\oracle_test.dmp ignore=y FULL=Y
+
+
+注意：专栏中的热点数据表 Pois 表 由于数据量较大，导出文件超过1G，暂时无法上传到本目录，所以将包含 Pois 表的MySQL备份文件mysqltest.sql上传到百度网盘中，网盘链接和提取码为：
+
+链接：https://pan.baidu.com/s/1iBwwPfaaI1ext1qZ5B-Oxg 
+提取码：qg5y 
+
+下载后，按照上文第二部分的方法恢复到数据库中即可。
+
