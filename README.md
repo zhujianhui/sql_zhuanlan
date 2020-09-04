@@ -41,6 +41,8 @@ imp system/password file=c:\oracle_test.dmp ignore=y FULL=Y
 下载文件后，按照上文第二部分的方法恢复到数据库中，也可以进入MySQL的bin目录下执行MySQL命令导入：
 
 例如：  C:\Program Files\MariaDB 10.3\bin>mysql -uroot -proot  < C:\mysqltest.sql
-
-命令中-uroot 表示用户名root -proot表示密码为root  C:\mysqltest.sql 表示备份文件的路径  这些参数请根据自己的实际情况做修改。
+命令中-uroot 表示用户名root 
+-proot表示密码为root  
+C:\mysqltest.sql 表示备份文件的路径  
+这些参数请根据自己的实际情况做修改。
 
